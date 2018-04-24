@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Encryption Demo</string>
+    <string name="app_name">Encryption Demo by Vin Norman</string>
+    <string name="edit_text_prompt">Enter Plain Text Here</string>
+    <string name="button_encrypt_text">Encrypt</string>
+    <string name="button_decrypt_text">Decrypt</string>
+    <string name="menu_about_string">About This App</string>
 </resources>
