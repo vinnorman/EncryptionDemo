@@ -8,8 +8,8 @@
 
 
     <EditText
-        android:layout_marginTop="@dimen/margin_top_edit_plain_text"
-        android:id="@+id/edit_plain_text"
+        android:layout_marginTop="@dimen/margin_top_edittext_plaintext_input"
+        android:id="@+id/edittext_plain_text_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -27,10 +27,10 @@
         android:text="@string/button_encrypt_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edit_plain_text" />
+        app:layout_constraintTop_toBottomOf="@id/edittext_plain_text_input" />
 
     <TextView
-        android:id="@+id/text_encrypted"
+        android:id="@+id/textview_encrypted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,10 +45,10 @@
         android:text="@string/button_decrypt_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text_encrypted" />
+        app:layout_constraintTop_toBottomOf="@id/textview_encrypted" />
 
     <TextView
-        android:id="@+id/text_decrypted"
+        android:id="@+id/textview_decrypted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
