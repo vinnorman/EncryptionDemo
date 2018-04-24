@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="20dp"
+    android:padding="40dp"
     tools:context="com.vinnorman.encryptiondemo.MainActivity">
 
     <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="@dimen/margin_top_edittext_plaintext_input"
         android:id="@+id/textinputlayout_plain_text_input"
         android:layout_width="match_parent"
+
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,9 +19,9 @@
 
         <android.support.design.widget.TextInputEditText
             android:id="@+id/edittext_plain_text_input"
+            android:maxLines="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_top_edittext_plaintext_input"
             android:hint="@string/edit_text_prompt"
             android:imeOptions="actionDone"
             android:inputType="text" />
@@ -38,10 +40,11 @@
         app:layout_constraintTop_toBottomOf="@id/textinputlayout_plain_text_input" />
 
     <TextView
+        android:layout_marginTop="30dp"
         android:id="@+id/textview_encrypted_text_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/label_encrypted_text"
+        android:text="@string/label_encrypted_string"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,16 +66,18 @@
         android:layout_height="wrap_content"
         android:enabled="false"
         android:text="@string/button_decrypt_text"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textview_encrypted" />
 
 
     <TextView
+        android:layout_marginTop="20dp"
         android:id="@+id/textview_decrypted_text_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/label_decrypted_text"
+        android:text="@string/label_decrypted_string"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

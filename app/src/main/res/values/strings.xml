@@ -4,13 +4,7 @@
     <string name="button_encrypt_text">Encrypt</string>
     <string name="button_decrypt_text">Decrypt</string>
     <string name="menu_about_string">About This App</string>
-    <string name="log_message_no_such_algorith_exception">RSA not supported</string>
-    <string name="log_message_no_such_padding_exception">Default Padding not supported</string>
-    <string name="log_message_invalid_key_exception">Invalid Key</string>
-    <string name="log_message_illegal_block_size_exception">Illegal block size MESSAGE HERE</string>
-    <string name="log_message_bad_padding_exception">bad padding MESSAGE HERE</string>
-    <string name="encryption_failure_message">the encryption didn\'t work!</string>
-    <string name="decryption_failure_message">the decryption didn\'t work!</string>
-    <string name="label_encrypted_text">Encrypted Text</string>
-    <string name="label_decrypted_text">Decrypted Text</string>
+
+    <string name="label_encrypted_string">Encrypted String</string>
+    <string name="label_decrypted_string">Decrypted String</string>
 </resources>
