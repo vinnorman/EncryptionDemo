@@ -26,5 +26,11 @@ I came to a solution in the following steps:
  - Add Android activity lifecycle data persistence e.g. if user rotates device, persist the encrypted string and accompanying private key
  - Apply a little styling, although without going overboard as this was not part of the brief
  - Tidy the code, seperating all encryption logic into EncryptionHelper class, and seperating functionality in Main Activity into seperate methods
+ 
+## Screenshots
+
+<img src="screenshot1.png" width="30%">  <img src="screenshot2.png" width="30%">  <img src="screenshot3.png" width="30%">
+
+
 
 This fulfils the brief, however if I was to go further I would probably look to enhance the encryption as there is a small size limit to encrypting the plain text using RSA. With research, I discovered a standard solution to this is to encrypt the data with a symettric algorithm (e.g. AES), encrypt the AES secret key using RSA, and store the encrypted string and encrypted AES key together, and decrypt the AES key using the RSA private key, and subsequently use the decrypted AES key for the encrypted string.
