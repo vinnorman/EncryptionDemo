@@ -3,8 +3,17 @@
     <string name="edit_text_prompt">Enter Plain Text Here</string>
     <string name="button_encrypt_text">Encrypt</string>
     <string name="button_decrypt_text">Decrypt</string>
-    <string name="menu_about_string">About This App</string>
-
     <string name="label_encrypted_string">Encrypted String</string>
     <string name="label_decrypted_string">Decrypted String</string>
+    <string name="all_about_this_app">About This App</string>
+    <string name="about_dialog_content">
+        Created By Vin Norman\n
+        24 April 2018\n
+        \n
+        v1 - Message encrypted with RSA algorithm.\n
+        \n
+        Known issues - Cannot input large amount of plain text without problem.\n
+        \n
+        Solution - Encrypt message with symmetric Key (e.g. AES), then use RSA to encrypt the AES key.
+    </string>
 </resources>
